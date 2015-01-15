@@ -1,0 +1,36 @@
+doctype html
+html
+  head
+    title= title
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    script(src='bower_components/jquery/dist/jquery.js')
+    script(src='bower_components/bootstrap/dist/js/bootstrap.js')
+    link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.css')
+    link(rel='stylesheet', href='/bower_components/font-awesome/css/font-awesome.css')
+    link(rel='stylesheet', href='/bower_components/bootstrap-social/bootstrap-social.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    div.container
+      nav.navbar.navbar-fixed-top.navbar-embossed.navbar-default(role='navigation')
+        div.navbar-header
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target=".navbar-ex1-collapse")
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+
+        div.collapse.navbar-collapse.navbar-ex1-collapse
+          ul#nav.nav.navbar-nav
+            li
+              a(href="#user_details") Home
+            li
+              a(href="#bio") Bio
+            li
+              a(href="#experience") Experience
+            li
+              a(href="#chart_area") Skills
+            li
+              a(href="#training") Training
+            li
+              a(href='#contact') Contact
+
+    block content

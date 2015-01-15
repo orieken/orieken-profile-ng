@@ -1,0 +1,27 @@
+{
+  "name": "ngbook",
+  "version": "0.0.1",
+  "authors": [
+    "Oscar Rieken"
+  ],
+  "description": "code for ngbook",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "~0.12.0",
+    "angular-resource": "~1.3.8",
+    "angular-mocks": "~1.3.8",
+    "angular": "~1.3.8",
+    "angular-route": "~1.3.8",
+    "bootstrap": "~3.3.1",
+    "highcharts-ng": "~0.0.7",
+    "bootstrap-social": "~4.8.0"
+  }
+}
