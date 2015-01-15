@@ -9,6 +9,9 @@
     "postinstall": "./node_modules/bower/bin/bower install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "0.10.x"
+  },
   "author": "Oscar Rieken",
   "license": "ISC",
   "dependencies": {
