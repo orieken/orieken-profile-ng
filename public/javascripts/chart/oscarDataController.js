@@ -53,7 +53,7 @@ profileApp.controller("OscarDataController", function($scope) {
                     {techName: 'Java', techIcon: 'sun-microsystem-java-logo.png', techUrl: ''},
                     {techName: 'jRuby', techIcon: 'jruby.png', techUrl: ''},
                     {techName: 'Watir-Webdriver', techIcon: 'watir-so.png', techUrl: ''},
-                    {techName: 'Selenium-WebDriver', techIcon: 'Seleniumlogov', techUrl: ''},
+                    {techName: 'Selenium-WebDriver', techIcon: 'Seleniumlogo.png', techUrl: ''},
                     {techName: 'Selenium-Grid', techIcon: 'selenium-grid.png', techUrl: ''},
                     {techName: 'Rails', techIcon: 'rails.png', techUrl: ''},
                     {techName: 'jQuery', techIcon: 'jquery-logo.png', techUrl: ''},
