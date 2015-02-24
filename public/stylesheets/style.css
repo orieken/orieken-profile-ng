@@ -155,10 +155,6 @@ span {
   padding-top: 100px;
 }
 
-#chart_area {
-  background-color: #efefe9;
-}
-
 .section {
   padding-top: 100px;
 }
@@ -188,4 +184,10 @@ ul.experience_tech li {
 ul.experience_tech img{
     height: 32px;
     width: 32px;
+}
+
+.panel-default > .panel-heading {
+    color: #A7DBDB;
+    background-color: #F38630;
+    border-color: #FA6900
 }

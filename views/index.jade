@@ -38,40 +38,23 @@ block content
           highchart#chart1.charter(config="chartConfig")
 
     section(ng-controller="OscarDataController")
-        div.row
-          div.jumbotron.lighter-blue
-            h4.text-center Experience
-            div(ng-repeat="job in oscarData.experience")
-              div.panel.panel-default
-                div.panel-heading
-                  h3.panel-title {{ job.companyName }}
-                div.panel-body
-                  div
-                    span {{ job.details }}
-                  div
-                    ul.experience_tech
-                      li(ng-repeat="technology in job.technologies")
-                        div.col-md-3
-                          img(src="images/{{technology.techIcon}}")
-                          span {{ technology.techName }}
+      div.row
+        div.jumbotron.lighter-blue
+          h4.text-center Experience
+          div(ng-repeat="job in oscarData.experience")
+            div.panel.panel-default
+              div.panel-heading
+                h3.panel-title {{ job.companyName }}
+              div.panel-body
+                div
+                  span {{ job.details }}
+                div
+                  ul.experience_tech
+                    li(ng-repeat="technology in job.technologies")
+                      div.col-md-3
+                        img(src="images/{{technology.techIcon}}")
+                        span {{ technology.techName }}
 
-
-
-    //
-    //section#home
-    //  div.row
-    //    div.jumbotron.lighter-blue
-    //      h4.text-center Home
-    //section#training
-    //  div.row
-    //    div.jumbotron.lighter-blue
-    //      h4.text-center Training
-    //section#contact
-    //  div.row
-    //    div.jumbotron.lighter-blue
-    //      div
-    //        h4.text-center Contact
-    //      div
 
     section#links
       div.row
