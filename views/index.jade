@@ -5,49 +5,8 @@ block content
     div
       h1= title
       p Welcome to #{title}
-    section
-      div.row
-        div.jumbotron.lighter-blue
-          h4.text-center Skills JS
-          div#chart_container.charter
-    section(ng-controller="ChartDataController")
-      div.row
-        div.jumbotron.lighter-blue
-          h4.text-center Skills NG
-          highchart#chart1.charter(config="chartConfig")
 
-    section(ng-controller="OscarDataController")
-      div.row
-        div.jumbotron.lighter-blue
-          h4.text-center Experience
-          div.panel-group#exp_accordion
-            div.panel.panel-default
-              div.panel-heading
-                div(ng-repeat="job in oscarData.experience")
-                  div
-                    div
-                      h4 {{job.companyName}}
-                    div
-                      div {{job.details}}
-                      ul(ng-repeat="tech in job.technologies")
-                        li {{tech.techName}}
-
-    section
-      div.row
-        div.jumbotron.lighter-blue
-          h4.text-center Home
-    section
-      div.row
-        div.jumbotron.lighter-blue
-          h4.text-center Training
-    section
-      div.row
-        div.jumbotron.lighter-blue
-          div
-            h4.text-center Contact
-          div
-
-    section(ng-controller="OscarDataController")
+    section#bio(ng-controller="OscarDataController")
       div.row
         div.jumbotron.lighter-blue
           h4.text-center Bio
@@ -66,7 +25,55 @@ block content
                     a.btn.btn-social-icon.btn-twitter
                       i.fa.fa-twitter
 
-    section
+    section#chart_area
+      div.row
+        div.jumbotron.lighter-blue
+          h4.text-center Skills JS
+          div#chart_container.charter
+
+    section#skills(ng-controller="ChartDataController")
+      div.row
+        div.jumbotron.lighter-blue
+          h4.text-center Skills NG
+          highchart#chart1.charter(config="chartConfig")
+
+    section(ng-controller="OscarDataController")
+        div.row
+          div.jumbotron.lighter-blue
+            h4.text-center Experience
+            div(ng-repeat="job in oscarData.experience")
+              div.panel.panel-default
+                div.panel-heading
+                  h3.panel-title {{ job.companyName }}
+                div.panel-body
+                  div
+                    span {{ job.details }}
+                  div
+                    ul.experience_tech
+                      li(ng-repeat="technology in job.technologies")
+                        div.col-md-3
+                          img(src="images/{{technology.techIcon}}")
+                          span {{ technology.techName }}
+
+
+
+    //
+    //section#home
+    //  div.row
+    //    div.jumbotron.lighter-blue
+    //      h4.text-center Home
+    //section#training
+    //  div.row
+    //    div.jumbotron.lighter-blue
+    //      h4.text-center Training
+    //section#contact
+    //  div.row
+    //    div.jumbotron.lighter-blue
+    //      div
+    //        h4.text-center Contact
+    //      div
+
+    section#links
       div.row
         div.col-xs-4
           div.box.light-blue
@@ -75,16 +82,3 @@ block content
           div.box.red
         div.col-xs-4
         div.col-xs-4
-
-  script(src='javascripts/chart/reg.js')
-  script(src="https://code.highcharts.com/highcharts.js")
-  script(src="https://code.highcharts.com/highcharts-more.js")
-  script(src="https://code.highcharts.com/modules/exporting.js")
-  script(src='bower_components/angular/angular.js')
-  script(src='bower_components/angular-route/angular-route.js')
-  script(src='bower_components/angular-bootstrap/ui-bootstrap.js')
-  script(src='bower_components/highcharts-ng/dist/highcharts-ng.js')
-  script(src='javascripts/chart/app.js')
-  script(src='javascripts/chart/chartDataController.js')
-  script(src='javascripts/chart/oscarDataController.js')
-
