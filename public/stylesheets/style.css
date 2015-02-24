@@ -170,3 +170,22 @@ span {
   padding: 25px 20px 35px;
 }
 
+ul.experience_tech {
+    padding-top: 10px;
+    list-style: none;
+}
+ul.experience_tech li:first-child {
+    padding-bottom: 0px;
+}
+ul.experience_tech li div{
+    margin: 5px;
+}
+ul.experience_tech li {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 10px;
+}
+ul.experience_tech img{
+    height: 32px;
+    width: 32px;
+}
