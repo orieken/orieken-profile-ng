@@ -25,12 +25,6 @@ block content
                     a.btn.btn-social-icon.btn-twitter
                       i.fa.fa-twitter
 
-    section#chart_area
-      div.row
-        div.jumbotron.lighter-blue
-          h4.text-center Skills JS
-          div#chart_container.charter
-
     section#skills(ng-controller="ChartDataController")
       div.row
         div.jumbotron.lighter-blue
@@ -54,6 +48,12 @@ block content
                       div.col-md-3
                         img(src="images/{{technology.techIcon}}")
                         span {{ technology.techName }}
+
+    section#chart_area
+      div.row
+        div.jumbotron.lighter-blue
+          h4.text-center Skills JS
+          div#chart_container.charter
 
 
     section#links

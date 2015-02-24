@@ -3,12 +3,23 @@ html
   head
     title orieken-ng
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
-    script(src='bower_components/jquery/dist/jquery.js')
-    script(src='bower_components/bootstrap/dist/js/bootstrap.js')
     link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.css')
     link(rel='stylesheet', href='/bower_components/font-awesome/css/font-awesome.css')
     link(rel='stylesheet', href='/bower_components/bootstrap-social/bootstrap-social.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='bower_components/jquery/dist/jquery.js')
+    script(src='bower_components/bootstrap/dist/js/bootstrap.js')
+    script(src='javascripts/chart/reg.js')
+    script(src="https://code.highcharts.com/highcharts.js")
+    script(src="https://code.highcharts.com/highcharts-more.js")
+    script(src="https://code.highcharts.com/modules/exporting.js")
+    script(src='bower_components/angular/angular.js')
+    script(src='bower_components/angular-route/angular-route.js')
+    script(src='bower_components/angular-bootstrap/ui-bootstrap.js')
+    script(src='bower_components/highcharts-ng/dist/highcharts-ng.js')
+    script(src='javascripts/chart/app.js')
+    script(src='javascripts/chart/chartDataController.js')
+    script(src='javascripts/chart/oscarDataController.js')
   body
     div.container
       nav.navbar.navbar-fixed-top.navbar-embossed.navbar-default(role='navigation')
@@ -39,15 +50,5 @@ html
 
     block content
     footer
-      script(src='javascripts/chart/reg.js')
-      script(src="https://code.highcharts.com/highcharts.js")
-      script(src="https://code.highcharts.com/highcharts-more.js")
-      script(src="https://code.highcharts.com/modules/exporting.js")
-      script(src='bower_components/angular/angular.js')
-      script(src='bower_components/angular-route/angular-route.js')
-      script(src='bower_components/angular-bootstrap/ui-bootstrap.js')
-      script(src='bower_components/highcharts-ng/dist/highcharts-ng.js')
-      script(src='javascripts/chart/app.js')
-      script(src='javascripts/chart/chartDataController.js')
-      script(src='javascripts/chart/oscarDataController.js')
+
 

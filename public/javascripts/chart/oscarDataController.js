@@ -37,7 +37,7 @@ profileApp.controller("OscarDataController", function($scope) {
                     {techName: 'MochaJS', techIcon: 'mochajs_logo.png', techUrl: ''},
                     {techName: 'MeteorJS', techIcon: 'logo-meteor.png', techUrl: ''},
                     {techName: 'Puppet', techIcon: 'PL_logo_vertical_RGB_sm.png', techUrl: ''},
-                    {techName: 'Packer', techIcon: '', techUrl: ''},
+                    {techName: 'Packer', techIcon: 'logo_vagrant.png', techUrl: ''},
                     {techName: 'Vagrant', techIcon: 'logo_vagrant.png', techUrl: ''},
                     {techName: 'Ansible', techIcon: 'ansible_logo.png', techUrl: ''},
                     {techName: 'GoLang', techIcon: 'golang_logo.jpg', techUrl: ''}
