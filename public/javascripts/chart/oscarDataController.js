@@ -15,12 +15,12 @@ profileApp.controller("OscarDataController", function($scope) {
                     dateStarted: '04.2015',
                     dateEnded: 'Current',
                 details: 'Automation: User Stories, Regression, Infrastructure, Build and Deployment',
-                techSpace: 'Lead Software Engineer in Test, Security; Atlanta, Ga',
-//                full_details: "Oscar worked as the lead of the automation team establish best practices for automation, training manual testers on coding best practices as well as:" +
-//                "-Building a sustainable automation framework for multiple complex systems, " +
-//                "- Building up the automated regression testing, -Introducing in cycle automation of current features being developed. " +
-//                "- Updating Application code to ensure ease of automation, -Training on BDD, Continuous Testing, Continuous Delivery, Continuous Deployment," +
-//                "- Building of dynamic testing environments using Packer, Vagrant, Ansible and Powershell.",
+                techSpace: '  Lead Software Engineer in Test, Security; Atlanta, Ga',
+                //fullDetails: "Oscar worked as the lead of the automation team establish best practices for automation, training manual testers on coding best practices as well as:" +
+                //"-Building a sustainable automation framework for multiple complex systems, " +
+                //"- Building up the automated regression testing, -Introducing in cycle automation of current features being developed. " +
+                //"- Updating Application code to ensure ease of automation, -Training on BDD, Continuous Testing, Continuous Delivery, Continuous Deployment," +
+                //"- Building of dynamic testing environments using Packer, Vagrant, Ansible and Powershell.",
                 technologies: [
                     {techName: 'Ruby', techIcon: 'ruby-logo.png', techUrl: ''},
                     {techName: 'Java', techIcon: 'sun-microsystem-java-logo.png', techUrl: ''},
@@ -54,7 +54,7 @@ profileApp.controller("OscarDataController", function($scope) {
                     dateStarted: '01.2012',
                     dateEnded: '04.2014',
                 details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac fringilla metus.',
-                techSpace: 'Lead Quality Assurance Analyst, Automotive; Atlanta, Ga',
+                techSpace: '  Lead Quality Assurance Analyst, Automotive; Atlanta, Ga',
 //                full_details: "Oscar worked as the lead part of the automation team of up to 15 Testers. Oscar's main focus is on helping establish best practices for automation, building a sustainable automation framework for multiple complex systems, building up the automated regression testing, as well as in cycle automation of current features being developed. Working with the development team to create solutions to ease the automation process, Also, introducing various practices such as BDD and continuous testing, Migrating legacy QTP regression that took over 40 hours to run to BDD style scenarios, using Cucumber and Watir-webdriver over Selenium Grid 2 Hub with over 200 headless vm's which take less than 20 minutes, Helping put together a continuos delivery model that takes less than 30 min from developer check in to deployable code, Removing the testing bottleneck and allowing Product owners to choose when they want to release into production",
                 technologies: [
                     {techName: 'Ruby', techIcon: 'ruby-logo.png', techUrl: ''},
@@ -76,7 +76,7 @@ profileApp.controller("OscarDataController", function($scope) {
                 dateStarted: '07.2008',
                 dateEnded: '12.2011',
                 details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac fringilla metus.',
-                techSpace: 'Global Software Consulting',
+                techSpace: '  Global Software Consulting',
                 //full_details: "Oscar worked as the lead part of a QA team of up to 4-6 testers. Oscar's main focus was on building up the automated framework and regression testing, as well as Integration testing with external systems (i.e. other front-facing systems, external third-party web applications, other internal applications) using various frameworks, working with the development team to verify bug fixes, Client and Server side monitoring, performance testing, and automated regression testing and updating templates to allow for easier testing.  Testing of Web services as well as a front facing retail site for products and services from other internal systems. Also, introducing various practices such as BDD and continuous testing, setting up automated mobile testing (iOS and Android) and regression testing for web based mobile and web based applications.",
                 sub_projects: [
                     {
@@ -110,7 +110,7 @@ profileApp.controller("OscarDataController", function($scope) {
                     dateStarted: '07.2012',
                     dateEnded: '12.2011',
                 details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac fringilla metus.',
-                techSpace: 'Advertising Company',
+                techSpace: '  Advertising Company',
                 //full_details: 'Performed manual and automated Test Case Design, and built custom reporting tools for presenting results of daily automated regression tests. Designed, implemented, and maintained manual and automated test suites, generated test reports to summarize results of a test sweep, and performed support and maintenance of applications and data for proprietary applications. Troubleshot both server and client side applications, participated in user interface design/workflow design of applications, and performed Black and White box testing of applications.  Completed research and analysis, writing technical specs and training documentation, and performed Test Case Analysis, Design, Planning and execution.  Developed applications written in C# and using the .net 3.5 framework to aid in the automated testing and gathering of metrics for weekly status reports. Administration of the Test Automation Share Point Page',
                 technologies: [
                     {techName: 'CSharp.Net', techIcon: 'csharp-logo.png', techUrl: ''},
@@ -123,7 +123,7 @@ profileApp.controller("OscarDataController", function($scope) {
                     dateStarted: '07.2012',
                     dateEnded: '12.2011',
                 details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac fringilla metus.',
-                techSpace: 'Video Game Company',
+                techSpace: '  Video Game Company',
                 //full_details: 'Extracted test requirements from product functional specification documents, or via discussions with software developers and project managers.  Designed, implemented, and maintained manual and automated test suites, generated test reports to summarize results of a test sweep, and performed support and maintenance of applications and data for proprietary applications.Troubleshot both server and client side applications, participated in user interface design/workflow design of applications, and performed Black and White box testing of applications.  Completed research and analysis, writing technical specs and training documentation, and performed Test Case Analysis, Design, Planning and execution.',
                 technologies: [
                     {techName: 'CSharp.Net', techIcon: 'csharp-logo.png', techUrl: ''},
@@ -136,7 +136,7 @@ profileApp.controller("OscarDataController", function($scope) {
 //                    dateStarted: '07.2012',
 //                    dateEnded: '12.2011',
                 details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac fringilla metus.',
-                techSpace: 'Business Services Software Vendor ',
+                techSpace: '  Business Services Software Vendor ',
                 full_details: 'Provide consultation and testing to the client’s software testing and marketing departments.  The company produces and distributes business process automation software utilized by Orthodontists, Pediadontists and General Practitioners to achieve a paperless office support environment. The applications suite comprises Accounts Receivable, Accounts Payable, General Ledger, Billing and Clinical Charting through terminals or tablet PCs, Ceph Tracking and a biometric fingerprint scanner utilized for patient check in, as well as time and attendance management. The applications are designed to run both batch and online',
                 technologies: [
                     {techName: 'CSharp.Net', techIcon: 'csharp-logo.png', techUrl: ''},

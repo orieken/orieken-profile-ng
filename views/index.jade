@@ -52,13 +52,16 @@ block content
             div.panel.panel-default
               div.panel-heading
                 h3.panel-title {{ job.companyName }}
+                  small {{ job.techSpace }}
               div.panel-body.ex-panel-body
                 div
                   span {{ job.details }}
-                div
+                div.col-md-12
+                  div
+                    span {{ job.fullDetails }}
                   ul.experience_tech
                     li(ng-repeat="technology in job.technologies")
-                      div.col-md-2
+                      div.col-md-3
                         img(src="images/{{technology.techIcon}}")
                         span {{ technology.techName }}
 
