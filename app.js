@@ -27,6 +27,15 @@ app.use('/bower_components',  express.static(__dirname + '/bower_components'));
 app.use('/', routes);
 app.use('/users', users);
 
+app.use('/github_repos', function(request,response){
+    response.json({
+        "foo": "bar",
+        "one": [
+            2,3,4,5
+        ]
+    })
+});
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
     var err = new Error('Not Found');

@@ -191,3 +191,12 @@ ul.experience_tech img{
     background-color: #F38630;
     border-color: #FA6900
 }
+
+.ex-panel-body {
+    background-color: #E0E4CC;
+}
+
+.container .jumbotron,
+.container-fluid .jumbotron {
+    border-radius: 0px;
+}

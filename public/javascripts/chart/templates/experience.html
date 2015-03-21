@@ -1,0 +1,14 @@
+div.row
+    div.jumbotron.lighter-blue
+        h4.text-center Experience
+        div.panel-group
+            div.panel.panel-default
+            div.panel-heading
+                div(ng-repeat="job in oscarData.experience")
+                    div
+                        div
+                            h4 {{job.companyName}}
+                        div
+                            div {{job.details}}
+                            ul(ng-repeat="tech in job.technologies")
+                                li {{tech.techName}}

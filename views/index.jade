@@ -25,6 +25,19 @@ block content
                     a.btn.btn-social-icon.btn-twitter
                       i.fa.fa-twitter
 
+    section#github_details
+      div.row
+        div.jumbotron.lighter-blue
+          div(ng-controller="OriekenGithubController")
+
+          div(ng-controller="OriekenGithubReposController")
+            div {{  }}
+            div(ng-repeat="repo in orieken_repos")
+              div {{ repo.name }} - {{ repo.language }}
+
+
+
+
     section#skills(ng-controller="ChartDataController")
       div.row
         div.jumbotron.lighter-blue
@@ -39,13 +52,13 @@ block content
             div.panel.panel-default
               div.panel-heading
                 h3.panel-title {{ job.companyName }}
-              div.panel-body
+              div.panel-body.ex-panel-body
                 div
                   span {{ job.details }}
                 div
                   ul.experience_tech
                     li(ng-repeat="technology in job.technologies")
-                      div.col-md-3
+                      div.col-md-2
                         img(src="images/{{technology.techIcon}}")
                         span {{ technology.techName }}
 
