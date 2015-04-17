@@ -200,3 +200,7 @@ ul.experience_tech img{
 .container-fluid .jumbotron {
     border-radius: 0px;
 }
+
+img.border {
+  padding-right: 4px ;
+}
